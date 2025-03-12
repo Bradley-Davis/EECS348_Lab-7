@@ -4,8 +4,8 @@
 void print_combinations(int points);
 
 int main() {
-    int points;
-    while (points != 0 && points != 1){
+    int points = 2;
+    while (points>1){
         printf("Enter the total points: ");
         scanf("%d", &points);
 
