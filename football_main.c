@@ -1,5 +1,15 @@
 #include "football.h"
+#include <stdio.h>
 
-int main(int argc, char *argv[]) {
+void print_combinations(int points);
+
+int main() {
+    int points;
+
+    printf("Enter the total points: ");
+    scanf("%d", &points);
+
+    print_combinations(points);
+
     return 0;
 }
