@@ -1,7 +1,7 @@
 #include "football.h"
 #include <stdio.h>
 
-static int results[1000][5]; 
+static int results[10000][5]; 
 static int count = 0;      
 
 int count_combinations(int points) {
